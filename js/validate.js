@@ -22,7 +22,6 @@ email.addEventListener('blur', ()=>{
 
 phone.addEventListener('blur', ()=>{
     console.log("phone is blurred");
-    // A valid phone number should be of 10 digits
     let regex = /^([0-9]){10}$/;
     let regex2 = /^([0-9]){12}$/;
     let str = phone.value;
